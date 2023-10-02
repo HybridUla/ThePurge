@@ -1,0 +1,64 @@
+name: PhantomSurvival
+version: '${project.version}'
+main: com.ula.purge.Purge
+api-version: 1.19
+prefix: PHANTOM>>
+load: STARTUP
+authors: [ HybridUla ]
+description: Phantom Survival
+depend: [LuckPerms, LibsDisguises, EffectLib, Vault]
+commands:
+  mm:
+    description: Shows commands for MaintenanceMode
+  user:
+    description: Shows the main menu
+  staff:
+    description: staff menu
+  plugins:
+    description:
+  pl:
+    description:
+  plugin:
+    description:
+  coinv:
+    description:
+  rwvillager:
+    description:
+  vote:
+    description:
+  test:
+    description:
+  hub:
+    description: Sends you back to the hub
+  Mtest:
+    description: Main command to test things
+  broadcast:
+    description: Broadcast a message to all players
+    usage: /broadcast <message>
+    permission: myplugin.broadcast
+  timeplayed:
+    description: Broadcast a message to all players
+    usage: /timeplayed <player>
+  afk:
+    description: Toggle AFK status
+    usage: /afk
+
+permissions:
+  mm.fallen:
+    default: op
+  broadcast.fallen:
+    default: op
+  punish.fallen:
+    default: op
+  staff.vanish:
+    default: op
+  staff.fallen:
+    default: op
+  admin.fallen:
+    default: op
+  fire.reward:
+    default: false
+  wind.reward:
+    default: false
+  water.reward:
+    default: false
